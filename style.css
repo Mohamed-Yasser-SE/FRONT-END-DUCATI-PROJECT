@@ -1,0 +1,70 @@
+body{
+    background-image: url('./imgs/1.jpg');background-size:100%;
+    background-attachment: fixed;
+    overscroll-behavior: none;
+     font-family: 'Rajdhani', sans-serif;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+     
+}
+#back{ box-shadow: 2px 2px 20px red;
+        border:3px solid red;
+        border-radius: 20px ;
+          }
+#back2{border:5px solid black;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 20px ;
+          }
+#back3{ box-shadow: 2px 2px 20px black;
+        border:3px solid black;
+        border-radius: 20px ;
+        width: 700px;
+        margin: 20px;
+          }
+#back:hover{ box-shadow: 2px 2px 20px rgb(28, 185, 17);
+        border:3px solid rgb(28, 185, 17);
+        border-radius: 20px ;
+          }
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    border-radius: 20px;
+    border:black 4px solid;
+    margin: 30px;
+  backdrop-filter: blur(5px); 
+  }
+  .text2 {
+   
+    border-radius: 20px;
+    border:black 4px solid;
+    margin: 30px;
+      backdrop-filter: blur(5px); 
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.button{
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 2px 2px 20px red;
+    border:red solid 3px ;
+    color:red;
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-weight: 600;
+}
+.button:hover{
+    box-shadow: 2px 2px 20px rgb(28, 185, 17);
+    border: rgb(28, 185, 17) solid 3px ;
+}
+a:hover{
+    color: rgb(28, 185, 17);
+}
